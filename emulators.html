@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Emulators</title>
+    <title>Manage your Account</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -18,7 +18,96 @@ $(function(){
 </script>
 <!--end of Navigation bar-->
   	
-    <h1>Hello, world!</h1>
+  	<center>
+<div class="panel panel-default">
+  <div class="panel-heading">J2ME Emulators (JAR) midlet</div>
+  <div class="panel-body">Choose your Platform below</div>
+</div></center>
+    
+<center><div class="tabbable"> <!-- Only required for left/right tabs -->
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#tab1" data-toggle="tab">Android</a></li>
+    <li><a href="#tab2" data-toggle="tab">Windows</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane active" id="tab1">
+      <p>
+          <div class = "thumbnail">
+         <img src = "assets/logo/android.svg" style="width:125px;height:125px;">
+      </div>
+      <div class = "caption">
+<span class="label label-info">Android</span>
+<div class="panel panel-primary">
+      <div class="panel-heading">J2ME Loader</div>
+      <div class="panel-body">         <img src = "assets/logo/j2meloader.png" style="width:50px;height:50px;"></div>
+<span class="label label-success">1.7.4-play</span>
+    </div>
+    <p>
+            <a href = "#" class = "btn btn-primary" role = "button">
+               Download
+            </a> 
+            
+            <a href = "#" class = "btn btn-default" role = "button">
+               Clone
+            </a>
+         </p>
+      </div>
+<div class="panel panel-warning">
+      <div class="panel-heading">CoffeeVM</div>
+      <div class="panel-body">         <img src = "assets/logo/coffeevm.png" style="width:50px;height:50px;"></div>
+<span class="label label-success">1.4.7</span>
+    </div>
+         <p>
+            <a href = "#" class = "btn btn-primary" role = "button">
+               Download
+            </a> 
+            
+            <a href = "#" class = "btn btn-default" role = "button">
+               Clone
+            </a>
+         </p>
+          </p>
+    </div>
+    <div class="tab-pane" id="tab2">
+      <p>
+                    <div class = "thumbnail">
+         <img src = "assets/logo/windows.svg" style="width:125px;height:125px;" alt = "Generic placeholder thumbnail">
+      </div>
+      <div class = "caption">
+<span class="label label-info">Windows</span>
+<div class="panel panel-primary">
+      <div class="panel-heading">Microemulator</div>
+      <div class="panel-body">         <img src = "assets/logo/microemulator.png" style="width:50px;height:50px;"></div>
+<span class="label label-success">2.0.4</span>
+    </div>
+         <p>
+            <a href = "#" class = "btn btn-primary" role = "button">
+               Download
+            </a> 
+            
+            <a href = "#" class = "btn btn-default" role = "button">
+               Download
+            </a>
+         </p>
+      </div>
+<div class="panel panel-default">
+      <div class="panel-heading">KEmulator</div>
+      <div class="panel-body">         <img src = "assets/logo/kemulator.png" style="width:150px;height:50px;"></div>
+<span class="label label-success">0.9.8</span>
+    </div>
+         <p>
+            <a href = "#" class = "btn btn-primary" role = "button">
+               Download
+            </a> 
+            <a href = "#" class = "btn btn-default" role = "button">
+               Download
+            </a>
+         </p>
+          </p>
+    </div>
+  </div>
+</div></center>
+    
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
